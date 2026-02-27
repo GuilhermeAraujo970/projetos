@@ -1,67 +1,75 @@
+<link rel="stylesheet" href="estilos.css">
 body {
-  margin: 0;
-  font-family: 'Fredoka', sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Topo */
-.secao-topo {
-  border-bottom: 1px solid #d5d5d5;
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.secao-largura-limitada {
-  width: 800px;
-  margin: 0 auto;
+header {
+    background-color: #000;
+    padding: 20px 0;
 }
 
-h1, h2, h3 {
-  margin: 0;
+.logo {
+    width: 150px;
 }
 
-.secao-topo p {
-  padding: 20px;
-  font-size: 22px;
-  font-weight: bold;
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-/* Seção inicial com imagem de fundo */
-.secao-background-capa {
-  min-height: 500px;
-  background-image: url('https://www.devmedia.com.br/arquivos/cursos/css_background/embed/aula5/capa.jpg');
-  background-size: cover;
-}
-.secao-background-conteudo {
-  text-align: right;
-  padding: 50px 20px;
+nav a:hover {
+    color: #f4b400;
 }
 
-/* Seção conteúdo */
-.secao-conteudo {
-  padding: 50px 20px;
-}
-.img-conteudo {
-  width: 250px;
-  height: 180px;
+section {
+    padding: 60px 0;
 }
 
-.secao-conteudo span {
-  border-left: 1px solid;
-  padding-left: 10px;  
-  font-size: 20px;
+.secao-clara {
+    background-color: #f4f4f4;
 }
 
-/* Seção com imagem de fundo e texto */
-.secao-background-divisao {
-  padding: 50px 0;
-  text-align: center;
-  background-image: url('https://www.devmedia.com.br/arquivos/cursos/css_background/embed/aula5/fundo1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+.secao-escura {
+    background-color: #ddd;
 }
-.secao-background-divisao h3{
-  font-size: 36px;
-  background-color: #fff;
-  width: 200px;
-  margin: 0 auto;
-  border-radius: 20px;
+
+img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
 }
